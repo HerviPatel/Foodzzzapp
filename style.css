@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.4;
+}
+
+
+.disclaimer {
+  background-color: #fffae5;
+  border-bottom: 1px solid #f0e6b2;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.disc-header {
+  color: #6b4e00;
+  font-weight: 500;
+}
+
+
+.header {
+  background: #ff4d4d;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+.badges {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.badge {
+  background: #fff;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+#delay {
+  color: #2196f3; 
+}
+
+#time {
+  color: #4caf50; 
+}
+
+
+.mapView {
+  margin: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  justify-items: center;
+}
+
+.mapView img {
+  width: 700px;
+  height: 500px;
+  display: block;
+}
+
+#driver-name {
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+    color: #6b4e00;
+    background-color: #fffae5;
+    text-indent: 50px;
+
+}
+
+.driver-details {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 15px;
+}
+
+.driver-details div {
+  flex: 1;
+  margin: 0 5px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-driver {
+  background: #2196f3;
+  color: #fff;
+}
+
+.search-driver:hover {
+  background: #1976d2;
+}
+
+.accept-order {
+  background: #4caf50;
+  color: #fff;
+}
+
+.accept-order:hover {
+  background: #388e3c;
+}
